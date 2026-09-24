@@ -30,13 +30,26 @@ v3.3 adds a formal distinction between cryptographic verification, protocol veri
 - deterministic result SHA-256: `82bd1f1fb328edd37a26d8ea60ede5a599c7d9af5027bffd73b9e52843b5a51d`;
 - protected GitHub checks and CodeQL: **PASS**.
 
+### Developer & research portal
+
+The public engineering program now separates project navigation, governance, release discipline, technical publications, interoperability evidence and security review into explicit surfaces:
+
+- [Developer Portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md) — start by objective: reproduce, review, contribute, implement or test interoperability.
+- [Engineering Evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md) — public evidence hierarchy and claim boundaries.
+- [Open-Source Governance](https://github.com/blackmore-technology-group/ENTITY/blob/main/GOVERNANCE.md) — stewardship, decision classes, protocol governance and maintainer boundaries.
+- [Release Policy](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/governance/RELEASE_POLICY.md) — evidence-gated release discipline and historical-integrity rules.
+- [Architecture & ADRs](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/architecture/README.md) — durable architecture decisions and change-control boundaries.
+- [Technical Papers](https://github.com/blackmore-technology-group/ENTITY/tree/main/docs/papers) — public engineering notes separated from normative protocol material.
+- [Interoperability Status](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/interoperability/STATUS.md) — controlled baselines and the live external milestone scoreboard.
+- [Independent Security Review Program](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/security/INDEPENDENT_SECURITY_REVIEW_PROGRAM.md) — scoped pathway for external security review.
+- [Contributor Recognition](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/community/CONTRIBUTOR_RECOGNITION.md) — factual recognition without overstating endorsement or validation.
+
 ### Start with the engineering
 
 - [ENTITY repository](https://github.com/blackmore-technology-group/ENTITY)
 - [ENTITY v3.3.0 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.3.0)
 - [v3.3 engineering launch discussion](https://github.com/blackmore-technology-group/ENTITY/discussions/34)
 - [Start Here](https://github.com/blackmore-technology-group/ENTITY/blob/main/START_HERE.md)
-- [Engineering Evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
 - [Interoperability Challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
 - [Contributing](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md)
 - [Security](https://github.com/blackmore-technology-group/ENTITY/blob/main/SECURITY.md)
@@ -95,7 +108,7 @@ We try to make important boundaries explicit rather than hide them behind broad 
 
 If you are evaluating ENTITY, criticism backed by a reproduction, counterexample, failing vector or ambiguous rule is welcome.
 
-Start with the [contribution guide](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md), the [interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md), or [Discussion #34](https://github.com/blackmore-technology-group/ENTITY/discussions/34).
+Start with the [Developer Portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md), the [contribution guide](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md), the [interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md), or [Discussion #34](https://github.com/blackmore-technology-group/ENTITY/discussions/34).
 
 Large protocol implementations are not expected as a first contribution. Small, independently owned tasks are deliberately part of the contributor path.
 
@@ -103,4 +116,5 @@ Large protocol implementations are not expected as a first contribution. Small, 
 
 **Blackmore Technology Group Limited**  
 Primary project: [ENTITY](https://github.com/blackmore-technology-group/ENTITY)  
+Developer portal: [ENTITY Developers](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)  
 License: ENTITY is published under Apache License 2.0.
