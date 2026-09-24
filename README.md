@@ -14,19 +14,30 @@ Its core primitives are:
 
 **ENTITY · AUTHORITY · RIGHT · EVENT · VALUE**
 
-The current protected public release is **v3.2.0 — Adoption Layer and Rights Passport Infrastructure**.
+The current protected public release is **v3.3.0 - Verifiable Reality, Evidence and Economic Causality**.
 
-**v3.3 — Verifiable Reality, Evidence and Economic Causality** is in protected release qualification. It adds a formal distinction between cryptographic verification, protocol verification and evidence supporting claims about the external world.
+v3.3 adds a formal distinction between cryptographic verification, protocol verification and evidence supporting claims about the external world. It preserves the v3.2 Rights Passport/adoption layer and the existing ENTITY market lifecycle.
 
 > **ENTITY does not make reality indisputable. It makes claims about reality attributable, evidentiary, contestable, machine-verifiable and economically traceable.**
+
+### Current v3.3 engineering evidence
+
+- protected release commit: `9c79f987207592cb6791e1a8956f23351cdfb2d3`;
+- complete regression: **144/144 PASS**;
+- targeted v3.3 suite: **16/16 PASS**;
+- sealed v3.3 reality vectors: **20/20 PASS** (10 valid / 10 invalid);
+- canonical sealed kit SHA-256: `f8b39ee01fb7346f33a57530e925b545d2bf9a770c7ec60724e28a4971d55a46`;
+- deterministic result SHA-256: `82bd1f1fb328edd37a26d8ea60ede5a599c7d9af5027bffd73b9e52843b5a51d`;
+- protected GitHub checks and CodeQL: **PASS**.
 
 ### Start with the engineering
 
 - [ENTITY repository](https://github.com/blackmore-technology-group/ENTITY)
-- [Start Here](https://github.com/blackmore-technology-group/ENTITY/blob/entity-v3.3.0-development/START_HERE.md)
-- [Engineering Evidence](https://github.com/blackmore-technology-group/ENTITY/blob/entity-v3.3.0-development/docs/ENGINEERING_EVIDENCE.md)
-- [Interoperability Challenge](https://github.com/blackmore-technology-group/ENTITY/blob/entity-v3.3.0-development/docs/INTEROPERABILITY_CHALLENGE.md)
-- [Releases](https://github.com/blackmore-technology-group/ENTITY/releases)
+- [ENTITY v3.3.0 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.3.0)
+- [Start Here](https://github.com/blackmore-technology-group/ENTITY/blob/main/START_HERE.md)
+- [Engineering Evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
+- [Interoperability Challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
+- [Contributing](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md)
 - [Security](https://github.com/blackmore-technology-group/ENTITY/blob/main/SECURITY.md)
 
 ## Independent implementation is the next major milestone
@@ -71,7 +82,7 @@ We try to make important boundaries explicit rather than hide them behind broad 
 
 If you are evaluating ENTITY, criticism backed by a reproduction, counterexample, failing vector or ambiguous rule is welcome.
 
-Start with the [contribution guide](https://github.com/blackmore-technology-group/ENTITY/blob/entity-v3.3.0-development/CONTRIBUTING.md) or the [interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/entity-v3.3.0-development/docs/INTEROPERABILITY_CHALLENGE.md).
+Start with the [contribution guide](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md) or the [interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md).
 
 Large protocol implementations are not expected as a first contribution. Small, independently owned tasks are deliberately part of the contributor path.
 
