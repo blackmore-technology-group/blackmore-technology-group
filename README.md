@@ -34,11 +34,24 @@ v3.3 adds a formal distinction between cryptographic verification, protocol veri
 
 - [ENTITY repository](https://github.com/blackmore-technology-group/ENTITY)
 - [ENTITY v3.3.0 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.3.0)
+- [v3.3 engineering launch discussion](https://github.com/blackmore-technology-group/ENTITY/discussions/34)
 - [Start Here](https://github.com/blackmore-technology-group/ENTITY/blob/main/START_HERE.md)
 - [Engineering Evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
 - [Interoperability Challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
 - [Contributing](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md)
 - [Security](https://github.com/blackmore-technology-group/ENTITY/blob/main/SECURITY.md)
+
+### Pick a bounded contributor task
+
+You do not need to understand or implement the whole protocol to contribute.
+
+- [Verify the v3.3 sealed reality kit on Linux](https://github.com/blackmore-technology-group/ENTITY/issues/20) — portability / reproducibility.
+- [Verify the v3.3 sealed reality kit on macOS](https://github.com/blackmore-technology-group/ENTITY/issues/21) — portability / reproducibility.
+- [Add a minimal Evidence Object and claim-transition example](https://github.com/blackmore-technology-group/ENTITY/issues/22) — small documentation/code example.
+- [Audit the Start Here path from a fresh clone](https://github.com/blackmore-technology-group/ENTITY/issues/26) — onboarding usability.
+- [Build a narrow independent v3.3 reality-vector classifier](https://github.com/blackmore-technology-group/ENTITY/issues/27) — clean-room interoperability evidence.
+
+A reproducible failure, counterexample or specification ambiguity is a useful result.
 
 ## Independent implementation is the next major milestone
 
@@ -82,7 +95,7 @@ We try to make important boundaries explicit rather than hide them behind broad 
 
 If you are evaluating ENTITY, criticism backed by a reproduction, counterexample, failing vector or ambiguous rule is welcome.
 
-Start with the [contribution guide](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md) or the [interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md).
+Start with the [contribution guide](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md), the [interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md), or [Discussion #34](https://github.com/blackmore-technology-group/ENTITY/discussions/34).
 
 Large protocol implementations are not expected as a first contribution. Small, independently owned tasks are deliberately part of the contributor path.
 
