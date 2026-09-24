@@ -43,6 +43,7 @@ The public engineering program now separates project navigation, governance, rel
 - [Interoperability Status](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/interoperability/STATUS.md) — controlled baselines and the live external milestone scoreboard.
 - [Independent Security Review Program](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/security/INDEPENDENT_SECURITY_REVIEW_PROGRAM.md) — scoped pathway for external security review.
 - [Contributor Recognition](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/community/CONTRIBUTOR_RECOGNITION.md) — factual recognition without overstating endorsement or validation.
+- [External Contribution Ledger](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/community/EXTERNAL_CONTRIBUTIONS.md) — evidence-backed record of real outside participation and its exact claim boundary.
 
 ### Start with the engineering
 
@@ -63,6 +64,7 @@ You do not need to understand or implement the whole protocol to contribute.
 - [Add a minimal Evidence Object and claim-transition example](https://github.com/blackmore-technology-group/ENTITY/issues/22) — small documentation/code example.
 - [Audit the Start Here path from a fresh clone](https://github.com/blackmore-technology-group/ENTITY/issues/26) — onboarding usability.
 - [Build a narrow independent v3.3 reality-vector classifier](https://github.com/blackmore-technology-group/ENTITY/issues/27) — clean-room interoperability evidence.
+- [Try to break the v3.3 verification-boundary separation](https://github.com/blackmore-technology-group/ENTITY/issues/37) — bounded external security/evidence review.
 
 A reproducible failure, counterexample or specification ambiguity is a useful result.
 
