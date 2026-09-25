@@ -1,88 +1,57 @@
 # Blackmore Technology Group
 
-**Open systems engineering for sovereign digital authority, verifiable information, data rights and interoperability.**
+**Open infrastructure for sovereign digital authority, verifiable claims, data rights, continuous provenance and interoperable economic state.**
 
-Blackmore Technology Group develops open infrastructure intended to let people, organizations, applications and digital systems preserve identity, authority, rights, evidence and economic state without making a cloud provider, registrar, resolver, storage operator or platform vendor sovereign merely because it operates infrastructure.
+Our primary open-source project is **[ENTITY](https://github.com/blackmore-technology-group/ENTITY)**.
 
-Our primary open-source project is **ENTITY**.
+## ENTITY v3.4.0 — Global Passport & Continuous Provenance
 
-## ENTITY
-
-[**ENTITY**](https://github.com/blackmore-technology-group/ENTITY) is a provider-independent protocol and reference implementation for persistent digital identity, delegated authority, provenance, evidence, data rights, portable recovery and rights-bearing economic state.
-
-Its core primitives are:
+ENTITY is a provider-independent protocol and reference implementation built around five core primitives:
 
 **ENTITY · AUTHORITY · RIGHT · EVENT · VALUE**
 
-The current protected public release is **v3.3.0 - Verifiable Reality, Evidence and Economic Causality**.
+The current protected public release is **v3.4.0 — Global Passport & Continuous Provenance**.
 
-v3.3 adds a formal distinction between cryptographic verification, protocol verification and evidence supporting claims about the external world. It preserves the v3.2 Rights Passport/adoption layer and the existing ENTITY market lifecycle.
+> **One ENTITY Passport. Many jurisdictions, industries, standards and contexts. No new sovereignty silos.**
 
-> **ENTITY does not make reality indisputable. It makes claims about reality attributable, evidentiary, contestable, machine-verifiable and economically traceable.**
+ENTITY v3.4.0 adds a universal Global Passport surface, composable jurisdiction/industry/privacy/trust/technical profiles, a versioned profile registry, standards mappings, continuous provenance, and executable implementation packages for Healthcare, Finance, Manufacturing, AI, Robotics and Defence/Public-Unclassified.
 
-### Current v3.3 engineering evidence
+### What developers can do now
 
-- protected release commit: `9c79f987207592cb6791e1a8956f23351cdfb2d3`;
-- complete regression: **144/144 PASS**;
-- targeted v3.3 suite: **16/16 PASS**;
-- sealed v3.3 reality vectors: **20/20 PASS** (10 valid / 10 invalid);
-- canonical sealed kit SHA-256: `f8b39ee01fb7346f33a57530e925b545d2bf9a770c7ec60724e28a4971d55a46`;
-- deterministic result SHA-256: `82bd1f1fb328edd37a26d8ea60ede5a599c7d9af5027bffd73b9e52843b5a51d`;
-- protected GitHub checks and CodeQL: **PASS**.
+- **Run the reference implementation** and reproduce the published qualification suite.
+- **Issue and verify Global Passports** using the v3.4 SDK/CLI surfaces.
+- **Start from a domain package** instead of designing an integration from scratch.
+- **Inspect six BTG-controlled native conformance baselines** in Rust, TypeScript, C#/.NET, Go, Swift and Java.
+- **Attempt an independent implementation** from public specifications and sealed material.
+- **Challenge the protocol** with counterexamples, portability findings, security review or specification ambiguities.
 
-### Developer & research portal
-
-The public engineering program now separates project navigation, governance, release discipline, technical publications, interoperability evidence and security review into explicit surfaces:
-
-- [Developer Portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md) — start by objective: reproduce, review, contribute, implement or test interoperability.
-- [Engineering Evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md) — public evidence hierarchy and claim boundaries.
-- [Open-Source Governance](https://github.com/blackmore-technology-group/ENTITY/blob/main/GOVERNANCE.md) — stewardship, decision classes, protocol governance and maintainer boundaries.
-- [Release Policy](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/governance/RELEASE_POLICY.md) — evidence-gated release discipline and historical-integrity rules.
-- [Architecture & ADRs](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/architecture/README.md) — durable architecture decisions and change-control boundaries.
-- [Technical Papers](https://github.com/blackmore-technology-group/ENTITY/tree/main/docs/papers) — public engineering notes separated from normative protocol material.
-- [Interoperability Status](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/interoperability/STATUS.md) — controlled baselines and the live external milestone scoreboard.
-- [Independent Security Review Program](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/security/INDEPENDENT_SECURITY_REVIEW_PROGRAM.md) — scoped pathway for external security review.
-- [Contributor Recognition](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/community/CONTRIBUTOR_RECOGNITION.md) — factual recognition without overstating endorsement or validation.
-- [External Contribution Ledger](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/community/EXTERNAL_CONTRIBUTIONS.md) — evidence-backed record of real outside participation and its exact claim boundary.
-
-### Start with the engineering
+### Start here
 
 - [ENTITY repository](https://github.com/blackmore-technology-group/ENTITY)
-- [ENTITY v3.3.0 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.3.0)
-- [v3.3 engineering launch discussion](https://github.com/blackmore-technology-group/ENTITY/discussions/34)
+- [ENTITY v3.4.0 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.0)
+- [Developer portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)
 - [Start Here](https://github.com/blackmore-technology-group/ENTITY/blob/main/START_HERE.md)
-- [Interoperability Challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
-- [Contributing](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md)
-- [Security](https://github.com/blackmore-technology-group/ENTITY/blob/main/SECURITY.md)
+- [v3.4 Global Passport documentation](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/README.md)
+- [Engineering evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
+- [Interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
+- [Open contributor tasks](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen)
 
-### Pick a bounded contributor task
+## Public v3.4 implementation packages
 
-You do not need to understand or implement the whole protocol to contribute.
+Use these repositories as domain-specific entry points into the same ENTITY Global Passport architecture:
 
-- [Verify the v3.3 sealed reality kit on Linux](https://github.com/blackmore-technology-group/ENTITY/issues/20) — portability / reproducibility.
-- [Verify the v3.3 sealed reality kit on macOS](https://github.com/blackmore-technology-group/ENTITY/issues/21) — portability / reproducibility.
-- [Add a minimal Evidence Object and claim-transition example](https://github.com/blackmore-technology-group/ENTITY/issues/22) — small documentation/code example.
-- [Audit the Start Here path from a fresh clone](https://github.com/blackmore-technology-group/ENTITY/issues/26) — onboarding usability.
-- [Build a narrow independent v3.3 reality-vector classifier](https://github.com/blackmore-technology-group/ENTITY/issues/27) — clean-room interoperability evidence.
-- [Try to break the v3.3 verification-boundary separation](https://github.com/blackmore-technology-group/ENTITY/issues/37) — bounded external security/evidence review.
+- [ENTITY-HEALTHCARE](https://github.com/blackmore-technology-group/ENTITY-HEALTHCARE)
+- [ENTITY-FINANCE](https://github.com/blackmore-technology-group/ENTITY-FINANCE)
+- [ENTITY-MANUFACTURING](https://github.com/blackmore-technology-group/ENTITY-MANUFACTURING)
+- [ENTITY-AI](https://github.com/blackmore-technology-group/ENTITY-AI)
+- [ENTITY-ROBOTICS](https://github.com/blackmore-technology-group/ENTITY-ROBOTICS)
+- [ENTITY-DEFENCE](https://github.com/blackmore-technology-group/ENTITY-DEFENCE)
 
-A reproducible failure, counterexample or specification ambiguity is a useful result.
+Each package configures the **same Global Passport** for a domain. The packages do not create separate sovereignty systems and do not redefine external standards.
 
-## Independent implementation is the next major milestone
+## Public language baselines
 
-BTG maintains controlled native ENTITY baselines in **Rust, TypeScript, C#, Go, Swift and Java**. These are useful cross-language reproducibility evidence, but we do **not** describe BTG-controlled implementations as independent third-party validation.
-
-The external challenge is stronger:
-
-> **Can an unrelated engineer or organization reproduce ENTITY semantics from public specifications and sealed test material without using BTG implementation code?**
-
-The frozen [ENTITY Protocol 1.0 External Conformance Kit](https://github.com/blackmore-technology-group/ENTITY-Protocol-1.0-Conformance-Kit) provides a bounded clean-room starting point.
-
-You do not need to implement the entire protocol to contribute. Reproducing a test, finding an ambiguity, breaking a vector assumption, reviewing a schema, improving portability or building a narrow independent subset is useful work.
-
-## Public implementation repositories
-
-BTG-controlled cross-language repositories are published so their engineering can be inspected:
+BTG publishes controlled native implementations so developers can inspect cross-language reproducibility and CI evidence:
 
 - [Rust](https://github.com/blackmore-technology-group/ENTITY-RUST-CLEANROOM)
 - [TypeScript](https://github.com/blackmore-technology-group/ENTITY-TYPESCRIPT-CLEANROOM)
@@ -91,32 +60,49 @@ BTG-controlled cross-language repositories are published so their engineering ca
 - [Swift](https://github.com/blackmore-technology-group/ENTITY-SWIFT-CLEANROOM)
 - [Java](https://github.com/blackmore-technology-group/ENTITY-JAVA-CLEANROOM)
 
-These repositories are **controlled qualification baselines**, not independent external implementations.
+For the v3.4 Global Passport campaign, the published target is **24/24 sealed vectors** with canonical cross-language result SHA-256:
 
-## Engineering principles
+`ac7504cce70576008cff069607619660a4b9bf0cad43b3f3de81078f1e80d9ba`
 
-We try to make important boundaries explicit rather than hide them behind broad claims:
+These repositories are **BTG-controlled reproducibility evidence, not independent third-party validation**.
 
+## Public qualification position
+
+The v3.4.0 release publishes the following BTG-controlled engineering evidence:
+
+- full regression: **177/177 PASS**;
+- targeted v3.4 Global Passport/package suite: **33/33 PASS**;
+- sealed v3.4 vectors: **24/24 PASS** — 12 valid / 12 invalid;
+- six executable domain packages published and verified;
+- post-release recursive closure: **PASS**.
+
+Independent external implementation, independent security review, deployment-specific legal/regulatory treatment and demonstrated external market adoption remain separate milestones.
+
+## Why ENTITY exists
+
+ENTITY is designed around explicit boundaries:
+
+- identity is not an account;
 - registration is not ownership;
 - provenance is not truth;
-- a valid signature is not objective external truth;
-- custody and hosting are not sovereign authority;
-- external evidence sources do not silently become protocol authority;
-- data bytes need not be artificially scarce for rights to be economically scarce;
-- historical signed state is superseded rather than silently rewritten;
-- internal qualification is not the same as independent external validation.
+- a valid signature is not objective proof of an external-world assertion;
+- custody, hosting, routing and storage do not create sovereign authority;
+- external registries and standards remain externally authoritative;
+- applications and agents act through explicit, scoped, revocable authority;
+- data bytes do not need artificial scarcity for rights and entitlements to be economically bounded;
+- historical signed semantics are superseded rather than silently rewritten.
 
-## Contributing
+> **Infrastructure possession does not become sovereign authority.**
 
-If you are evaluating ENTITY, criticism backed by a reproduction, counterexample, failing vector or ambiguous rule is welcome.
+## Contribute without implementing everything
 
-Start with the [Developer Portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md), the [contribution guide](https://github.com/blackmore-technology-group/ENTITY/blob/main/CONTRIBUTING.md), the [interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md), or [Discussion #34](https://github.com/blackmore-technology-group/ENTITY/discussions/34).
+You do not need to understand or rebuild the complete protocol before contributing. Useful first contributions include reproducing a sealed campaign, finding a documentation failure, testing portability, reviewing a schema, challenging a security boundary, identifying an ambiguous rule, or building a narrow independent classifier.
 
-Large protocol implementations are not expected as a first contribution. Small, independently owned tasks are deliberately part of the contributor path.
+A reproducible failure, counterexample or ambiguity is useful evidence.
 
 ---
 
 **Blackmore Technology Group Limited**  
 Primary project: [ENTITY](https://github.com/blackmore-technology-group/ENTITY)  
-Developer portal: [ENTITY Developers](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)  
-License: ENTITY is published under Apache License 2.0.
+Documentation: [ENTITY-DOCS](https://blackmore-technology-group.github.io/ENTITY-DOCS/)  
+License: ENTITY is published under the Apache License 2.0.
