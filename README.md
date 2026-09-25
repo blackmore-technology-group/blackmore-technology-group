@@ -4,7 +4,7 @@
 
 Our primary open-source project is **[ENTITY](https://github.com/blackmore-technology-group/ENTITY)**.
 
-## ENTITY v3.4.0 — Global Passport & Continuous Provenance
+## ENTITY v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap
 
 ENTITY is a provider-independent protocol and reference implementation built around five core primitives:
 
@@ -14,7 +14,7 @@ The current protected public release is **v3.4.0 — Global Passport & Continuou
 
 > **One ENTITY Passport. Many jurisdictions, industries, standards and contexts. No new sovereignty silos.**
 
-ENTITY v3.4.0 adds a universal Global Passport surface, composable jurisdiction/industry/privacy/trust/technical profiles, a versioned profile registry, standards mappings, continuous provenance, and executable implementation packages for Healthcare, Finance, Manufacturing, AI, Robotics and Defence/Public-Unclassified.
+ENTITY v3.4.1 preserves the Global Passport/domain architecture and adds canonical protocol-origin lineage plus sovereign-user bootstrap separation while keeping user asset provenance and data-economy participation independent from protocol origin.
 
 ### What developers can do now
 
@@ -28,7 +28,7 @@ ENTITY v3.4.0 adds a universal Global Passport surface, composable jurisdiction/
 ### Start here
 
 - [ENTITY repository](https://github.com/blackmore-technology-group/ENTITY)
-- [ENTITY v3.4.0 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.0)
+- [ENTITY v3.4.1 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1)
 - [Developer portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)
 - [Start Here](https://github.com/blackmore-technology-group/ENTITY/blob/main/START_HERE.md)
 - [v3.4 Global Passport documentation](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/README.md)
@@ -68,9 +68,10 @@ These repositories are **BTG-controlled reproducibility evidence, not independen
 
 ## Public qualification position
 
-The v3.4.0 release publishes the following BTG-controlled engineering evidence:
+The v3.4.1 release publishes the following BTG-controlled engineering evidence:
 
-- full regression: **177/177 PASS**;
+- full regression: **185/185 PASS**;
+- protocol-origin / migration / economic-lineage: **8/8 PASS**;
 - targeted v3.4 Global Passport/package suite: **33/33 PASS**;
 - sealed v3.4 vectors: **24/24 PASS** — 12 valid / 12 invalid;
 - six executable domain packages published and verified;
