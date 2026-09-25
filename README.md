@@ -10,7 +10,7 @@ ENTITY is a provider-independent protocol and reference implementation built aro
 
 **ENTITY · AUTHORITY · RIGHT · EVENT · VALUE**
 
-The current protected public release is **v3.4.0 — Global Passport & Continuous Provenance**.
+The current protected public release is **v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap**.
 
 > **One ENTITY Passport. Many jurisdictions, industries, standards and contexts. No new sovereignty silos.**
 
