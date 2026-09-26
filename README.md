@@ -6,7 +6,13 @@ Our primary open-source project is **[ENTITY](https://github.com/blackmore-techn
 
 > **Run it. Verify it. Break it. Implement it independently.**
 
-[**ENTITY v3.4.2 Release**](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2) · [**Explore v3.4.2 + BTDU**](https://blackmore-technology-group.github.io/ENTITY-DOCS/v342/) · [**Source**](https://github.com/blackmore-technology-group/ENTITY) · [**Conformance Kit**](https://github.com/blackmore-technology-group/ENTITY-Protocol-1.0-Conformance-Kit) · [**Contributor Tasks**](https://github.com/blackmore-technology-group/ENTITY/issues) · [**Documentation**](https://blackmore-technology-group.github.io/ENTITY-DOCS/)
+[**Take the v3.4.2 External Verification Challenge**](https://github.com/blackmore-technology-group/ENTITY/issues/55) · [**ENTITY v3.4.2 Release**](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2) · [**Explore v3.4.2 + BTDU**](https://blackmore-technology-group.github.io/ENTITY-DOCS/v342/) · [**Source**](https://github.com/blackmore-technology-group/ENTITY) · [**Conformance Kit**](https://github.com/blackmore-technology-group/ENTITY-Protocol-1.0-Conformance-Kit) · [**Documentation**](https://blackmore-technology-group.github.io/ENTITY-DOCS/)
+
+---
+
+## Outside engineers wanted
+
+**Pick one bounded claim and try to reproduce it, break it, or implement it independently.** The public [v3.4.2 External Verification Challenge](https://github.com/blackmore-technology-group/ENTITY/issues/55) offers short onboarding, Rust reproduction, domain-package, BTDU review and independent-implementation paths. A reproducible failure or counterexample is useful evidence.
 
 ---
 
@@ -75,9 +81,10 @@ python -m unittest discover -s tests -v
 
 Then choose what you want to challenge:
 
-- [Audit the Start Here path from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/26)
-- [Reproduce the Rust vector campaign on Linux](https://github.com/blackmore-technology-group/ENTITY/issues/48)
-- [Try a domain package from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/46)
+- [External verification challenge — choose a bounded claim](https://github.com/blackmore-technology-group/ENTITY/issues/55)
+- [Audit the v3.4.2 + BTDU onboarding path from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/26)
+- [Reproduce the sealed Rust passport campaign on Linux](https://github.com/blackmore-technology-group/ENTITY/issues/48)
+- [Try a v3.4.2 domain-package path from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/46)
 - [Read the independent interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
 
 A reproducible failure, ambiguity, counterexample or portability problem is useful evidence.
