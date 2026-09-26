@@ -1,57 +1,58 @@
 # Blackmore Technology Group
 
-**Open infrastructure for sovereign digital authority, verifiable claims, data rights, continuous provenance and interoperable economic state.**
+**Open infrastructure for sovereign digital authority, data rights, continuous provenance and interoperable economic state.**
 
 Our primary open-source project is **[ENTITY](https://github.com/blackmore-technology-group/ENTITY)**.
 
-## ENTITY v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap
+> **Run it. Verify it. Break it. Implement it independently.**
 
-ENTITY is a provider-independent protocol and reference implementation built around five core primitives:
+## Start in 5 minutes
+
+- **Run ENTITY:** [Quick start](https://github.com/blackmore-technology-group/ENTITY#quick-start)
+- **Verify the published evidence:** [Engineering evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
+- **Challenge the protocol:** [Interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
+- **Take a bounded contributor task:** [Open issues](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen)
+- **Read the docs:** [ENTITY-DOCS](https://blackmore-technology-group.github.io/ENTITY-DOCS/)
+
+## What ENTITY is
+
+ENTITY is an open-source protocol and reference implementation for persistent digital identity, delegated authority, provenance, evidence, rights, trusted state transitions, portable recovery and data-economic infrastructure.
+
+Its core primitives are:
 
 **ENTITY · AUTHORITY · RIGHT · EVENT · VALUE**
 
-The current protected public release is **v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap**.
+ENTITY is designed for systems where identity, authority, rights and provenance must survive changes in provider, application, host, device or custody.
 
-> **One ENTITY Passport. Many jurisdictions, industries, standards and contexts. No new sovereignty silos.**
+**One ENTITY Passport. Many jurisdictions, industries, standards and contexts. No new sovereignty silos.**
 
-ENTITY v3.4.1 preserves the Global Passport/domain architecture and adds canonical protocol-origin lineage plus sovereign-user bootstrap separation while keeping user asset provenance and data-economy participation independent from protocol origin.
+## Current release and v3.4.2 freeze
 
-### What developers can do now
+The current published canonical release is **v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap**.
 
-- **Run the reference implementation** and reproduce the published qualification suite.
-- **Issue and verify Global Passports** using the v3.4 SDK/CLI surfaces.
-- **Start from a domain package** instead of designing an integration from scratch.
-- **Inspect six BTG-controlled native conformance baselines** in Rust, TypeScript, C#/.NET, Go, Swift and Java.
-- **Attempt an independent implementation** from public specifications and sealed material.
-- **Challenge the protocol** with counterexamples, portability findings, security review or specification ambiguities.
+The frozen **v3.4.2** candidate is now in release review as [PR #52](https://github.com/blackmore-technology-group/ENTITY/pull/52). It adds the Blackmore Technology Data Universe (BTDU) and canonical-protocol protection while preserving sovereign user ownership and a zero automatic protocol royalty.
 
-### Start here
+Current v3.4.2 qualification recorded in the release PR includes:
 
-- [ENTITY repository](https://github.com/blackmore-technology-group/ENTITY)
-- [ENTITY v3.4.1 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1)
-- [Developer portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)
-- [Start Here](https://github.com/blackmore-technology-group/ENTITY/blob/main/START_HERE.md)
-- [v3.4 Global Passport documentation](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/README.md)
-- [Engineering evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
-- [Interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
-- [Open contributor tasks](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen)
+- **203/203** final regression PASS
+- **26-vector** Global Passport verifier PASS
+- final BTDU verification: **4,927 objects · 37,628 atoms · 38,278 bonds · 19,681 compounds**
+- destructive torn-journal recovery: **PASS**
+- protected-state recovery: **PASS**
+- canonical lineage preserved: **Shawn Blackmore → Blackmore Technology Group → ENTITY**
+- `automatic_protocol_royalty_bps = 0`
 
-## Public v3.4 implementation packages
+The release remains intentionally fail-closed: post-freeze evidence may be added, but release-critical v3.4.2 artifacts are not rewritten after freeze.
 
-Use these repositories as domain-specific entry points into the same ENTITY Global Passport architecture:
+## Blackmore Technology Data Universe
 
-- [ENTITY-HEALTHCARE](https://github.com/blackmore-technology-group/ENTITY-HEALTHCARE)
-- [ENTITY-FINANCE](https://github.com/blackmore-technology-group/ENTITY-FINANCE)
-- [ENTITY-MANUFACTURING](https://github.com/blackmore-technology-group/ENTITY-MANUFACTURING)
-- [ENTITY-AI](https://github.com/blackmore-technology-group/ENTITY-AI)
-- [ENTITY-ROBOTICS](https://github.com/blackmore-technology-group/ENTITY-ROBOTICS)
-- [ENTITY-DEFENCE](https://github.com/blackmore-technology-group/ENTITY-DEFENCE)
+BTDU is ENTITY's bonded/atomic data architecture. Instead of treating every semantic relationship as a large duplicated representation, BTDU represents reusable information atoms, bonds and compounds and connects them to ENTITY's authority, provenance, rights and economic state.
 
-Each package configures the **same Global Passport** for a domain. The packages do not create separate sovereignty systems and do not redefine external standards.
+The project is qualifying BTDU as a real-world knowledge/data substrate, not as a generic raw-file compression claim.
 
-## Public language baselines
+## Public cross-language reproducibility
 
-BTG publishes controlled native implementations so developers can inspect cross-language reproducibility and CI evidence:
+BTG publishes controlled native implementations so developers can inspect and challenge cross-language reproducibility:
 
 - [Rust](https://github.com/blackmore-technology-group/ENTITY-RUST-CLEANROOM)
 - [TypeScript](https://github.com/blackmore-technology-group/ENTITY-TYPESCRIPT-CLEANROOM)
@@ -60,46 +61,34 @@ BTG publishes controlled native implementations so developers can inspect cross-
 - [Swift](https://github.com/blackmore-technology-group/ENTITY-SWIFT-CLEANROOM)
 - [Java](https://github.com/blackmore-technology-group/ENTITY-JAVA-CLEANROOM)
 
-For the v3.4 Global Passport campaign, the published target is **24/24 sealed vectors** with canonical cross-language result SHA-256:
+These repositories are **BTG-controlled reproducibility evidence, not independent third-party validation**. The stronger milestone is an unrelated implementation built from the public specifications and sealed conformance material.
 
-`ac7504cce70576008cff069607619660a4b9bf0cad43b3f3de81078f1e80d9ba`
+## Domain entry points
 
-These repositories are **BTG-controlled reproducibility evidence, not independent third-party validation**.
+The same Global Passport architecture is packaged for:
 
-## Public qualification position
+- [Healthcare](https://github.com/blackmore-technology-group/ENTITY-HEALTHCARE)
+- [Finance](https://github.com/blackmore-technology-group/ENTITY-FINANCE)
+- [Manufacturing](https://github.com/blackmore-technology-group/ENTITY-MANUFACTURING)
+- [AI](https://github.com/blackmore-technology-group/ENTITY-AI)
+- [Robotics](https://github.com/blackmore-technology-group/ENTITY-ROBOTICS)
+- [Defence / public-unclassified](https://github.com/blackmore-technology-group/ENTITY-DEFENCE)
 
-The v3.4.1 release publishes the following BTG-controlled engineering evidence:
+Each package configures the **same ENTITY Global Passport**. They do not create separate sovereignty systems and do not redefine external standards.
 
-- full regression: **185/185 PASS**;
-- protocol-origin / migration / economic-lineage: **8/8 PASS**;
-- targeted v3.4 Global Passport/package suite: **33/33 PASS**;
-- sealed v3.4 vectors: **24/24 PASS** — 12 valid / 12 invalid;
-- six executable domain packages published and verified;
-- post-release recursive closure: **PASS**.
+## Developer challenge
 
-Independent external implementation, independent security review, deployment-specific legal/regulatory treatment and demonstrated external market adoption remain separate milestones.
+You do not need to understand the entire protocol to contribute. Useful first contributions include:
 
-## Why ENTITY exists
+- reproduce a sealed vector campaign;
+- run the kit on a new platform;
+- find a documentation or portability failure;
+- challenge a security boundary;
+- identify an ambiguous rule;
+- build a narrow independent classifier;
+- produce a counterexample that forces the protocol or documentation to improve.
 
-ENTITY is designed around explicit boundaries:
-
-- identity is not an account;
-- registration is not ownership;
-- provenance is not truth;
-- a valid signature is not objective proof of an external-world assertion;
-- custody, hosting, routing and storage do not create sovereign authority;
-- external registries and standards remain externally authoritative;
-- applications and agents act through explicit, scoped, revocable authority;
-- data bytes do not need artificial scarcity for rights and entitlements to be economically bounded;
-- historical signed semantics are superseded rather than silently rewritten.
-
-> **Infrastructure possession does not become sovereign authority.**
-
-## Contribute without implementing everything
-
-You do not need to understand or rebuild the complete protocol before contributing. Useful first contributions include reproducing a sealed campaign, finding a documentation failure, testing portability, reviewing a schema, challenging a security boundary, identifying an ambiguous rule, or building a narrow independent classifier.
-
-A reproducible failure, counterexample or ambiguity is useful evidence.
+A reproducible failure is useful evidence.
 
 ---
 
