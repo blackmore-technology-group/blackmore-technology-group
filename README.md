@@ -1,126 +1,85 @@
 # Blackmore Technology Group
 
-### Open infrastructure for sovereign digital authority, data rights, continuous provenance and interoperable economic state.
+### Open infrastructure for sovereign digital authority, verifiable provenance, data rights and interoperable economic state.
 
-Our primary open-source project is **[ENTITY](https://github.com/blackmore-technology-group/ENTITY)** — an open protocol and reference implementation for persistent identity, delegated authority, provenance, evidence, rights, portable recovery and data-economic infrastructure.
+Our primary open-source project is **[ENTITY](https://github.com/blackmore-technology-group/ENTITY)** — an Apache-2.0 protocol and reference implementation for persistent identity, delegated authority, evidence, rights, portable recovery and data-economic infrastructure.
 
-> **Run it. Verify it. Break it. Implement it independently.**
+> **Build it. Verify it. Break it. Implement it independently.**
 
-[**Take the v3.4.2 External Verification Challenge**](https://github.com/blackmore-technology-group/ENTITY/issues/55) · [**ENTITY v3.4.2 Release**](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2) · [**Explore v3.4.2 + BTDU**](https://blackmore-technology-group.github.io/ENTITY-DOCS/v342/) · [**Source**](https://github.com/blackmore-technology-group/ENTITY) · [**Conformance Kit**](https://github.com/blackmore-technology-group/ENTITY-Protocol-1.0-Conformance-Kit) · [**Documentation**](https://blackmore-technology-group.github.io/ENTITY-DOCS/)
-
----
-
-## Outside engineers wanted
-
-**Pick one bounded claim and try to reproduce it, break it, or implement it independently.** The public [v3.4.2 External Verification Challenge](https://github.com/blackmore-technology-group/ENTITY/issues/55) offers short onboarding, Rust reproduction, domain-package, BTDU review and independent-implementation paths. A reproducible failure or counterexample is useful evidence.
+[**ENTITY v3.4.3**](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.3) · [**5-minute developer paths**](https://github.com/blackmore-technology-group/ENTITY#developer-entry-points) · [**Good first issues**](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [**Discussions**](https://github.com/blackmore-technology-group/ENTITY/discussions) · [**Documentation**](https://blackmore-technology-group.github.io/ENTITY-DOCS/) · [**Protocol 1.0 Conformance Kit**](https://github.com/blackmore-technology-group/ENTITY-Protocol-1.0-Conformance-Kit)
 
 ---
 
-## ENTITY v3.4.2 — Canonical BTDU Release
+## Start by building, not reading everything
 
-**ENTITY v3.4.2 is the sole current supported canonical ENTITY release.**
+You do **not** need to understand the entire ENTITY architecture before contributing.
 
-It brings together four parts of the architecture that are usually separate:
+Choose one path:
 
-1. **Sovereign digital authority** — persistent identity, delegated authority, rights and recovery that are not created merely by hosting or possession.
-2. **Blackmore Technology Data Universe (BTDU)** — an atomic/bonded data architecture built from reusable atoms, bonds and compounds, connected to ENTITY provenance and governance.
-3. **Data-rights economics** — Digital Commodity Objects (DCOs), rights instruments, price discovery, settlement, usage, derivatives and explicit originator participation without a required protocol token.
-4. **Canonical protocol protection** — canonical ENTITY preserves the verified **Shawn Blackmore → Blackmore Technology Group → ENTITY → v3.4.2** lineage while forks remain free to operate as derivatives.
+### 1. Build something in 5–30 minutes
 
-### Published qualification
+- Create and verify an ENTITY provenance receipt.
+- Build a tiny TypeScript or Python verifier.
+- Turn a JSON event into an ENTITY evidence object.
+- Add a GitHub Action that verifies an ENTITY receipt.
+- Visualize a small lineage chain.
 
-- **203/203** regression PASS
-- **3/3** repository safety PASS
-- GitHub dependency review **PASS**
-- Public conformance smoke **PASS**
-- Protected-state recovery **PASS**
-- Exact restore **true**
-- Restored sovereign signing **true**
-- v3.4.1 origin continuity **true**
+**Start here:** [open buildable good-first issues](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
-Protected release commit: `6dfa3d6cc738d9369cf092d2782676bf4f2a46e4`  
-Release tree: `f90bf74e29899f82d0a4ee321604346241bba4de`  
-Release-origin attestation SHA-256: `0ba4b0cc8c34688d98ef3c3425fbd70ff5b59d26183a18a15506bbad3adea0c1`
+### 2. Reproduce a real engineering case
 
-Earlier ENTITY releases remain immutable historical provenance and are superseded for current deployment and conformance purposes.
+ENTITY is being exercised against real open-source engineering work. BTG contributions have already been merged upstream in projects including:
 
-### The protocol in one line
+- [Memnox PR #86](https://github.com/Memnox/memnox/pull/86) — policy/time-window validation hardening.
+- [Vector PR #26504](https://github.com/vectordotdev/vector/pull/26504) — ambiguous test-output failures converted from a panic into a normal configuration error.
 
-```text
-ENTITY → AUTHORITY → RIGHT → EVENT → VALUE
-```
+The purpose is not to claim ownership of third-party code. The purpose is to make authorship, evidence, lineage, rights boundaries and later economic state reproducible.
 
-### The data-rights lifecycle
+### 3. Challenge ENTITY itself
 
-```text
-DCO → Instrument → Listing → Disclosure → Order / RFQ / Auction
-    → Price Discovery → Trade → Clearing → Settlement → Entitlement
-    → Usage → Derived Output → Economic Consequence
-```
-
----
-
-## Why developers may care about BTDU
-
-BTDU is not presented as generic raw-file compression. It is a different way to represent and connect information: reusable atomic primitives can form relationships and higher-order compounds while ENTITY preserves the authority, provenance, rights and economic boundaries that matter.
-
-**[Explore ENTITY v3.4.2 + Blackmore Technology Data Universe →](https://blackmore-technology-group.github.io/ENTITY-DOCS/v342/)**
-
----
-
-## Start in five minutes
-
-```bash
-git clone https://github.com/blackmore-technology-group/ENTITY.git
-cd ENTITY
-git checkout v3.4.2
-python -m pip install -r requirements.txt
-python -m compileall -q src sdk protocol
-python -m unittest discover -s tests -v
-```
-
-Then choose what you want to challenge:
-
-- [External verification challenge — choose a bounded claim](https://github.com/blackmore-technology-group/ENTITY/issues/55)
-- [Audit the v3.4.2 + BTDU onboarding path from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/26)
-- [Reproduce the sealed Rust passport campaign on Linux](https://github.com/blackmore-technology-group/ENTITY/issues/48)
-- [Try a v3.4.2 domain-package path from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/46)
-- [Read the independent interoperability challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
+- [15-minute first-run audit](https://github.com/blackmore-technology-group/ENTITY/issues/80)
+- [External Verification Challenge](https://github.com/blackmore-technology-group/ENTITY/issues/55)
+- [External Repository Qualification campaign](https://github.com/blackmore-technology-group/ENTITY/issues/78)
+- [Interoperability Challenge](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/INTEROPERABILITY_CHALLENGE.md)
 
 A reproducible failure, ambiguity, counterexample or portability problem is useful evidence.
 
 ---
 
-## Six public language baselines
+## What ENTITY is trying to solve
+
+```text
+IDENTITY → AUTHORITY → RIGHT → EVENT → EVIDENCE → VALUE
+```
+
+ENTITY keeps several relationships separate that are often collapsed together:
+
+- identity vs account;
+- provenance vs truth;
+- custody vs ownership;
+- a valid signature vs an externally true claim;
+- protocol origin vs ownership of downstream assets;
+- usage vs realized economic value.
+
+The current supported runtime is **ENTITY v3.4.3**. The **Blackmore Technology Data Universe (BTDU)** component remains version **3.4.2 unchanged** inside that release.
+
+---
+
+## Six public cross-language baselines
 
 BTG publishes controlled reproducibility baselines in:
 
 [Rust](https://github.com/blackmore-technology-group/ENTITY-RUST-CLEANROOM) · [TypeScript](https://github.com/blackmore-technology-group/ENTITY-TYPESCRIPT-CLEANROOM) · [C# / .NET](https://github.com/blackmore-technology-group/ENTITY-CSHARP-CLEANROOM) · [Go](https://github.com/blackmore-technology-group/ENTITY-GO-CLEANROOM) · [Swift](https://github.com/blackmore-technology-group/ENTITY-SWIFT-CLEANROOM) · [Java](https://github.com/blackmore-technology-group/ENTITY-JAVA-CLEANROOM)
 
-These are **BTG-controlled reproducibility evidence, not unrelated third-party validation**. The stronger milestone remains an implementation authored and controlled by an unrelated engineer or organization from public specifications and sealed conformance material.
+These are BTG-controlled reproducibility baselines, **not independent third-party implementations**. The stronger interoperability milestone is an implementation independently authored and controlled by an unrelated engineer or organization from the public protocol and sealed conformance material.
 
 ---
 
-## Domain entry points
+## Join the developer conversation
 
-[Healthcare](https://github.com/blackmore-technology-group/ENTITY-HEALTHCARE) · [Finance](https://github.com/blackmore-technology-group/ENTITY-FINANCE) · [Manufacturing](https://github.com/blackmore-technology-group/ENTITY-MANUFACTURING) · [AI](https://github.com/blackmore-technology-group/ENTITY-AI) · [Robotics](https://github.com/blackmore-technology-group/ENTITY-ROBOTICS) · [Defence / Public-Unclassified](https://github.com/blackmore-technology-group/ENTITY-DEFENCE)
-
-Each package configures the same ENTITY sovereignty model; the packages do not create separate sovereignty systems or redefine external standards.
-
----
-
-## Post-release qualification still open
-
-v3.4.2 does **not** claim completion of the external ADAM promotion gates including `RUST_COMPILED_QUALIFIED`, `REAL_WORLD_TRAINING`, hardware-backed key custody, physical multi-host qualification, certified-device pilot, 30-day wall-clock operation, independent security audit or independent assessor receipt. Those remain post-release qualification work.
-
-ENTITY also intentionally separates identity from accounts, authority from possession or hosting, provenance from objective truth, protocol origin from ownership of downstream user assets, cryptographic verification from legal conclusions, and market evidence from automatic accounting fair value.
-
-Canonical protocol origin does **not** create an automatic BTG royalty. Economic participation requires explicit terms.
-
----
+Use [GitHub Discussions](https://github.com/blackmore-technology-group/ENTITY/discussions) for design questions, implementation ideas, evaluation results and show-and-tell work. Use Issues for reproducible defects and bounded tasks. Use Pull Requests for reviewable changes.
 
 **Blackmore Technology Group Limited**  
 Primary project: [ENTITY](https://github.com/blackmore-technology-group/ENTITY)  
-Current release: [ENTITY v3.4.2](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2)  
-Documentation: [ENTITY-DOCS](https://blackmore-technology-group.github.io/ENTITY-DOCS/)  
-License: Apache License 2.0.
+Current runtime: [ENTITY v3.4.3](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.3)  
+License: Apache License 2.0
